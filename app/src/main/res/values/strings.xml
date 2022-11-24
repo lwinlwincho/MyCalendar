@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyCalendar</string>
+    <string-array name="months_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+    </string-array>
+</resources>
