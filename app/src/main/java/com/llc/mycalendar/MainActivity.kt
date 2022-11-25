@@ -23,8 +23,8 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener,Tex
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        setSupportActionBar(binding.myToolbar)
-        binding.myToolbar.setNavigationOnClickListener{
+        setSupportActionBar(binding.appBar.myToolbar)
+        binding.appBar.myToolbar.setNavigationOnClickListener{
         }
 
         binding.spinner.onItemSelectedListener = this
