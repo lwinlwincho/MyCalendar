@@ -24,8 +24,8 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener,Tex
         setContentView(binding.root)
 
         setSupportActionBar(binding.appBar.myToolbar)
-        binding.appBar.myToolbar.setNavigationOnClickListener{
-        }
+       /* binding.myToolbar.setNavigationOnClickListener{
+        }*/
 
         binding.spinner.onItemSelectedListener = this
         //  using the custom array and a default spinner layout

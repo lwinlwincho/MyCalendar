@@ -19,12 +19,12 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="my_theme" parent="Theme.AppCompat.Light">
+    <style name="my_theme" parent="ThemeOverlay.AppCompat.ActionBar">
         <item name="android:textColorPrimary">@color/teal_700</item>
         <item name="android:textColorSecondary">@color/purple_200</item>
     </style>
 
-    <style name="my_overlay_theme" parent="ThemeOverlay.AppCompat.Dark">
+    <style name="my_overlay_theme" parent="ThemeOverlay.AppCompat.Light">
         <item name="android:background">@color/purple_500</item>
     </style>
 </resources>

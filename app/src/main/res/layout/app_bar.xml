@@ -2,9 +2,9 @@
 
 
 <!--  If you use AppBarLayout, your own app bar "my_theme" cannot work.
-      and it will use default app bar.
+      and it will use default app bar.-->
 
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<!--<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -26,6 +26,40 @@
             app:subtitle="MY logo"
             app:title="My Calendar" />
 
-  <!--  </com.google.android.material.appbar.AppBarLayout>
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+      <!--<TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="I stay in app bar"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/toolbar"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginEnd="9dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_loyalty_24" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginEnd="9dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_loyalty_24" />
+
+         </com.google.android.material.appbar.AppBarLayout>
+      </androidx.coordinatorlayout.widget.CoordinatorLayout>
 -->

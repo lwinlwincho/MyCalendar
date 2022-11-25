@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <include
-        android:id="@+id/app_bar"
-        layout="@layout/app_bar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
         android:id="@+id/tv_date_view"
@@ -55,6 +55,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_speech" />
+
     <Button
         android:id="@+id/btn_speech"
         android:layout_width="wrap_content"
